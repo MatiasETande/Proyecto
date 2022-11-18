@@ -23,10 +23,10 @@ public class PanelEstadisticas extends JPanel {
         this.setBounds(x,y,width,height);
         this.setBackground(Color.ORANGE);
         this.setOpaque(false);
-        //this.setBackground(Color.orange);
+
 
         this.inicializarBarras();
-        //this.actualizarPorcentajes(20,0,80);
+
         this.cargartexto();
         this.iniciarBotonSalir();
 
