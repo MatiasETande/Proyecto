@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Menu extends JPanel /*implements ActionListener*/ {
+public class Menu extends JPanel  {
 
     private ImageIcon imagenBoton = new ImageIcon("src/imgPoyecto/boton1.png");
     private JButton jugar;
@@ -107,23 +107,5 @@ public class Menu extends JPanel /*implements ActionListener*/ {
     }
 
 
-    /*@Override
-    public void actionPerformed(ActionEvent e) {
-
-        Object unBotonDelMenu = e.getSource();
-
-        if (this.jugar.equals(unBotonDelMenu)) {
-            System.out.println("Jugar");
-        } else
-            if (this.estadisticas.equals(unBotonDelMenu)) {
-                System.out.println("Estadisticas");
-        } else
-            if (this.creditos.equals(unBotonDelMenu)) {
-                System.out.println("Creditos");
-        } else
-            if (this.salir.equals(unBotonDelMenu)) {
-                System.out.println("Salir");
-        }
-
-    }*/
+   
 }
