@@ -14,7 +14,7 @@ public class Main {
 
 
         TresEnRaya tresEnRaya= new TresEnRaya();
-        //Ventana miVentana = new Ventana();
+        
 
 
 
